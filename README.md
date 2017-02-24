@@ -55,6 +55,6 @@ class CrosMiddleware
  
 ```php
  $app->middleware([
-    App\Http\Middleware\OldMiddleware::class
+    App\Http\Middleware\CrosMiddleware::class
  ])
  ```
